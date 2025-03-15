@@ -1,22 +1,18 @@
-# Analog-Clock
+# Rock vs Mine Pediction
 <br>
-A simple and interactive analog clock built using HTML, CSS, and JavaScript. The clock features real-time time updates with dynamically moving hour, minute, and second hands. It has a clean, modern design and can be customized for different styles.
+This project is a machine learning model that predicts whether an object detected by sonar is a rock or a mine. The model is trained using sonar data, which consists of various frequency-based features.
 
 <br>
-<b><h2>Features</h2></b><br>
-1. Real-time display with moving hour, minute, and second hands.<br>
-2. Created using HTML for structure, CSS for styling and animations, and JavaScript for real-time functionality.<br>
-3. Responsive design for compatibility across devices.<br>
-4. Customizable design elements like clock face color, hand styles, and more.<br>
+<b><h2>Dataset</h2></b><br>
+1. The dataset used for training the model contains sonar readings taken from objects in water.<br>
+2. Each instance consists of 60 numerical attributes, representing energy levels at different frequencies.<br>
+3. The target variable is Rock (R) or Mine (M).<br>
+
 <br>
 <b><h2>Tech Stack</h2></b><br>
-1. Frontend: HTML, CSS, JavaScript<br>
-2. Design: CSS animations and transitions for smooth, real-time hand movement.<br>
+1. Python<br>
+2. Numpy<br>
+3. Pandas<br>
+4. Scikit-learn
 <br>
-<b><h2>Usage</h2></b><br>
-1.The clock automatically updates every second to display the correct time.<br>
-2. The design and hands of the clock are customizable using CSS.<br>
-3. The clock is responsive, adjusting to fit various screen sizes.<br>
-<br>
-<b><h2>Contributing</h2></b><br>
-Feel free to fork the repository, make improvements, or report any bugs. Contributions are welcome!<br>
+
